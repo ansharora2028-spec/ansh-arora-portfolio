@@ -300,8 +300,13 @@ export const HeroSection: React.FC = () => {
               >
                 {profile.disciplines.map((d, i) => (
                   <React.Fragment key={d}>
-                    {i > 0 && <span className="text-[#8C6D4F] mx-1">•</span>}
-                    {d}
+                    {/* Each discipline stays whole, with its bullet, so a
+                        narrow screen breaks between them, never mid-phrase. */}
+                    {i > 0 && ' '}
+                    <span className="whitespace-nowrap">
+                      {i > 0 && <span className="text-[#8C6D4F] mr-1">•</span>}
+                      {d}
+                    </span>
                   </React.Fragment>
                 ))}
               </p>
