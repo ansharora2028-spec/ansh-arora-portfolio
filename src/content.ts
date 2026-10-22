@@ -18,10 +18,10 @@ export const profile = {
   /** The three big stacked words in the hero headline. */
   headline: ['I SCALE', 'BRANDS', 'NATIONWIDE'],
   /** The small spaced-out line under the headline. */
-  disciplines: ['GROWTH & STRATEGY', 'E-COMMERCE', 'OPERATIONS'],
+  disciplines: ['GROWTH MARKETING', 'E-COMMERCE', 'AI BUILDS'],
   /** One or two sentences under the disciplines. */
   tagline:
-    'I turn market opportunity into operating reality — from a single-city launch to 350+ dark stores across 7 states, with 52% revenue growth along the way.',
+    'I turn market opportunity into operating reality — taking a brand on Blinkit from Kolkata to 350+ dark stores across 7 states with 52% online sales growth. Now I build AI agents, scrapers, automations and apps that do the groundwork.',
   /** The two short uppercase lines in the hero's quote card. */
   motto: ['STRATEGY IS THE CRAFT.', 'GROWTH IS THE PROOF.'],
   /**
@@ -56,11 +56,11 @@ export const about = {
   headline: ["I DON'T JUST PITCH GROWTH.", 'I GO OUT AND BUILD IT.'],
   /** Your bio. Your name is bolded automatically at the front. */
   bio:
-    'a business graduate with 14 months across e-commerce, growth and operations. I owned the end-to-end scale-up of a brand from one city to 350+ dark stores across 7 states, drove 52% revenue growth, and opened enterprise accounts worth ₹30L. IESEG France graduate and merit scholarship recipient, now on the Young Leaders Cohort at Masters’ Union.',
+    'a marketing professional with over a year across digital channels, e-commerce growth and commercial strategy. I led a brand’s Blinkit expansion from Kolkata to 350+ dark stores across 7 states, drove 52% online sales growth through paid media, and closed a ₹30L Adani Group Diwali order. I also build bespoke Claude integrations, multi-agent venture evaluation tools, AI creative pipelines and automated outreach systems, and launched an independent fragrance enterprise during my undergraduate studies. IESEG France graduate and merit scholarship recipient, now on the Young Leaders Cohort at Masters’ Union.',
   /** Four headline numbers. An empty array hides the whole strip. */
   stats: [
     { value: '350+', label: 'Dark Stores Scaled', gold: false },
-    { value: '52%', label: 'Revenue Growth', gold: true },
+    { value: '52%', label: 'Online Sales Growth', gold: true },
     { value: '₹30L', label: 'Enterprise Revenue', gold: false },
     { value: '5X', label: 'Competition Podiums', gold: true },
   ],
@@ -91,70 +91,136 @@ export const projects: Project[] = [
   {
     number: '01',
     title: 'National Dark-Store Scale-Up',
-    category: 'GROWTH / RETAIL DISTRIBUTION',
+    category: 'GROWTH / QUICK COMMERCE GTM',
     description:
-      'Owned launch execution end to end as the brand went from a single city to 350+ dark stores across 7 states. Rebuilt the funnel, pricing and paid-channel mix behind that footprint, driving 52% revenue growth over the same period.',
+      'Led the brand’s go-to-market expansion on Blinkit from Kolkata to 350+ dark stores across 7 states. Ran paid media, ROAS optimisation and keyword strategy behind that footprint, driving 52% online sales growth.',
     linkUrl: 'https://www.linkedin.com/in/ansh-arora-44b51a257',
     linkLabel: 'VIEW ON LINKEDIN',
     tech: [
-      'Launch Execution',
-      'Funnel Analysis',
-      'Pricing Strategy',
-      'Paid Channels',
-      'Distribution',
-      'GTM',
+      'GTM Expansion',
+      'Blinkit',
+      'Paid Media',
+      'ROAS Optimisation',
+      'Keyword Strategy',
+      'Funnel Optimisation',
     ],
     metrics: [
       { label: 'FOOTPRINT', value: '350+ dark stores' },
-      { label: 'REACH', value: '7 states' },
-      { label: 'REVENUE', value: '+52%' },
+      { label: 'REACH', value: 'Kolkata → 7 states' },
+      { label: 'ONLINE SALES', value: '+52%' },
     ],
   },
   {
     number: '02',
-    title: 'Marketplace Launch & Ops Automation',
-    category: 'E-COMMERCE / OPERATIONS',
+    title: 'Marketplace CRO & AI Design Workflow',
+    category: 'E-COMMERCE / DIGITAL TRANSFORMATION',
     description:
-      'Led marketplace launch execution on Meesho and Blinkit, lifting conversion through listing optimisation. Automated the forecasting and planning workflow behind packaging, cutting box-design turnaround time by 86%.',
+      'Grew Meesho and Blinkit conversions through CRO across marketplace launch and listing optimisation. Brought AI tools into the gift-box design workflow, cutting design time and lifting output speed by 86%.',
     linkUrl: 'https://www.linkedin.com/in/ansh-arora-44b51a257',
     linkLabel: 'VIEW ON LINKEDIN',
     tech: [
       'Meesho',
       'Blinkit',
+      'CRO',
       'Listing Optimisation',
-      'Demand Forecasting',
-      'Process & SOP Design',
-      'Advanced Excel',
+      'AI Design Tools',
+      'Digital Transformation',
     ],
     metrics: [
       { label: 'CHANNELS', value: 'Meesho & Blinkit' },
-      { label: 'TURNAROUND', value: '−86% time' },
-      { label: 'LEVER', value: 'Listings + Forecasting' },
+      { label: 'OUTPUT SPEED', value: '+86%' },
+      { label: 'LEVER', value: 'CRO + AI tools' },
     ],
   },
   {
     number: '03',
-    title: 'Enterprise Gifting Accounts',
-    category: 'B2B SALES / KEY ACCOUNTS',
+    title: 'Corporate Gifting Partnerships',
+    category: 'BRAND PARTNERSHIPS / CORPORATE MARKETING',
     description:
-      'Opened corporate gifting as a revenue line — securing ₹30L by spearheading the Adani Group gifting acquisition within the first month, then winning the marquee Holi gifting business through partnership development with Shree Cement.',
+      'Secured a ₹30L Adani Group Diwali order by converting a corporate lead through partnership marketing, then won the landmark Shree Cement corporate gifting business through brand collaboration and client acquisition.',
     linkUrl: 'https://www.linkedin.com/in/ansh-arora-44b51a257',
     linkLabel: 'VIEW ON LINKEDIN',
     tech: [
-      'Enterprise Sales',
-      'Partnership Development',
-      'Key Account Management',
+      'Partnership Marketing',
+      'Brand Collaboration',
+      'Client Acquisition',
+      'Corporate Sales',
       'Negotiation',
-      'Stakeholder Management',
     ],
     metrics: [
-      { label: 'REVENUE', value: '₹30L secured' },
+      { label: 'ORDER', value: '₹30L Diwali order' },
       { label: 'ACCOUNTS', value: 'Adani, Shree Cement' },
-      { label: 'TIME TO CLOSE', value: 'Within month 1' },
+      { label: 'CHANNEL', value: 'Partnership marketing' },
     ],
   },
   {
     number: '04',
+    title: 'Founders Lab — Venture Evaluator',
+    category: 'AI BUILD / MULTI-AGENT CLAUDE PLUGIN',
+    description:
+      'A Claude plugin of 10+ agents that researches, models and stress-tests business ideas before launch: local and market scouting, idea generation, unit economics in three scenarios, blind prosecution against locked kill criteria, an evidence audit, and a final verdict.',
+    linkUrl: 'https://github.com/ansharora2028-spec/founders-lab',
+    linkLabel: 'VIEW ON GITHUB',
+    tech: [
+      'Claude Code',
+      'Multi-Agent Design',
+      'Prompt Engineering',
+      'Market Research',
+      'Unit Economics',
+    ],
+    metrics: [
+      { label: 'AGENTS', value: '10+' },
+      { label: 'OUTPUT', value: 'Do it / don’t verdict' },
+      { label: 'BUILT', value: "Aug–Oct '26" },
+    ],
+  },
+  {
+    number: '05',
+    title: 'LinkedIn Content Strategist',
+    category: 'AI BUILD / CLAUDE PLUGIN',
+    description:
+      'An 8-stage Claude plugin that revamps a user’s LinkedIn profile and then automates post creation, carrying positioning from the profile through to every post it drafts.',
+    tech: [
+      'Claude Code',
+      'Workflow Design',
+      'Content Strategy',
+      'Personal Branding',
+      'AI Automations',
+    ],
+    metrics: [
+      { label: 'PIPELINE', value: '8 stages' },
+      { label: 'SCOPE', value: 'Profile + posts' },
+      { label: 'BUILT', value: "Aug–Oct '26" },
+    ],
+  },
+  {
+    number: '06',
+    title: 'Munchy Mates',
+    category: 'AI BUILD / MACOS DESKTOP APP',
+    description:
+      'A desktop pet for macOS whose mood shifts with battery level and time of day, with a PDF processing tool built in.',
+    tech: ['macOS', 'Desktop App', 'UI/UX Design', 'PDF Processing', 'Claude Code'],
+    metrics: [
+      { label: 'PLATFORM', value: 'macOS' },
+      { label: 'TRIGGERS', value: 'Battery & time' },
+      { label: 'EXTRA', value: 'PDF tool' },
+    ],
+  },
+  {
+    number: '07',
+    title: 'Pinterest Trend Scraper',
+    category: 'AI BUILD / APIFY ACTOR',
+    description:
+      'An Apify actor that extracts pins, saves and trend keywords from Pinterest by search, board or profile — raw material for spotting what is gaining traction before it peaks.',
+    tech: ['Apify', 'Web Scraping', 'Trend Research', 'Data Extraction'],
+    metrics: [
+      { label: 'INPUTS', value: 'Search, board, profile' },
+      { label: 'DATA', value: 'Pins, saves, keywords' },
+      { label: 'USE', value: 'Trend discovery' },
+    ],
+  },
+  {
+    number: '08',
     title: 'EmpowerLille',
     category: 'SOCIAL ENTERPRISE / IESEG CAPSTONE',
     description:
@@ -175,7 +241,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    number: '05',
+    number: '09',
     title: 'MU Muse Match',
     category: 'PRODUCT / AI MATCHMAKING',
     description:
@@ -197,7 +263,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    number: '06',
+    number: '10',
     title: 'India Coffee & Caf\u00e9 Market Map',
     category: 'VC RESEARCH / MARKET STRATEGY',
     description:
@@ -218,7 +284,7 @@ export const projects: Project[] = [
     ],
   },
   {
-    number: '07',
+    number: '11',
     title: 'Orders-to-Stock-Alert Automation',
     category: 'OPERATIONS / WORKFLOW AUTOMATION',
     description:
@@ -243,44 +309,46 @@ export const projects: Project[] = [
 /** The four bento cards in the Capability Matrix section. */
 export const skills = [
   {
-    title: 'GROWTH & E-COMMERCE',
+    title: 'GROWTH & DIGITAL MARKETING',
     badge: 'CORE PILLAR',
-    items: ['Funnel Analysis', 'Paid Channels', 'Pricing', 'Marketplace Ops', 'Listing Optimisation'],
+    items: ['Meta Ads', 'Paid Media & ROAS', 'Funnel Optimisation', 'SEO & GEO', 'Google Analytics', 'Campaign Management'],
     description:
-      'Owning the commercial funnel end to end — acquisition, pricing and channel mix — and the marketplace operations that turn a listing into repeat revenue.',
-    stat: '+52% REVENUE',
+      'Owning the commercial funnel end to end — paid media, keyword strategy and conversion — and reading the numbers that say what to scale next.',
+    stat: '+52% ONLINE SALES',
     colSpan: 'lg:col-span-7',
   },
   {
-    title: 'OPERATIONS & SCALE',
+    title: 'E-COMMERCE & GTM',
     badge: 'EXECUTION',
-    items: ['Launch Execution', 'Process & SOP Design', 'Forecasting', 'Timeline Management'],
+    items: ['GTM Expansion', 'Marketplace CRO', 'Listing Optimisation', 'E-commerce Platform Management'],
     description:
-      'Building the operating machinery that lets a launch repeat itself across states without losing speed or margin.',
+      'Taking a brand from one city to a national quick-commerce footprint without losing speed or conversion along the way.',
     stat: '350+ STORES',
     colSpan: 'lg:col-span-5',
   },
   {
-    title: 'DATA & INSIGHTS',
-    badge: 'MEASUREMENT',
-    items: ['Advanced Excel', 'Tableau', 'Power BI', 'SPSS', 'Google Sheets'],
+    title: 'AI BUILDS & AUTOMATION',
+    badge: 'BUILDER',
+    items: ['Claude Code', 'AI Prompt Engineering', 'AI Automations', 'Compound Engineering', 'Higgsfield AI', 'Runway'],
     description:
-      'KPI tracking, funnel and trend analysis, and reporting that makes the next decision obvious.',
-    stat: 'KPI & FUNNEL',
+      'Multi-agent Claude plugins, AI creative pipelines and automated outreach — tools that do the research and busywork so the decisions get made faster.',
+    stat: '10+ AGENT PLUGIN',
     colSpan: 'lg:col-span-5',
   },
   {
-    title: 'STRATEGY & ENTERPRISE SALES',
+    title: 'STRATEGY & PARTNERSHIPS',
     badge: 'COMMERCIAL',
     items: [
-      'Market Sizing',
-      'Competitive Benchmarking',
-      'Unit Economics',
-      'Stakeholder Management',
-      'First-Principles Thinking',
+      'Business Strategy',
+      'Market Research',
+      'Consumer Insights',
+      'Design Thinking',
+      'Negotiation & Persuasion',
+      'Advanced Excel',
+      'Figma & Canva',
     ],
     description:
-      'Sizing the opportunity, benchmarking the field, then carrying it into the room — enterprise accounts closed on the strength of the case.',
+      'Sizing the opportunity, understanding the customer, then carrying the case into the room — corporate partnerships closed on the strength of it.',
     stat: '₹30L SECURED',
     colSpan: 'lg:col-span-7',
   },
@@ -306,51 +374,67 @@ export const journey: RouteStop[] = [
   },
   {
     id: '02',
+    year: "AUG '26 – OCT '26",
+    title: 'AI BUILDS',
+    organization: 'INDEPENDENT — GURGAON',
+    description:
+      'Built a 10+ agent Claude plugin that stress-tests business ideas, an 8-stage LinkedIn Content Strategist plugin, the Munchy Mates macOS desktop pet, and a Pinterest trend-scraping Apify actor.',
+  },
+  {
+    id: '03',
     year: "SEPT '25 – JUN '26",
     title: 'MARKETING EXECUTIVE',
     organization: 'INDO DIVINE SPIRITUAL SOLUTIONS PVT. LTD. — JAIPUR',
     description:
-      'Scaled the brand to 350+ dark stores across 7 states, drove 52% revenue growth, and secured ₹30L in enterprise gifting revenue.',
+      'Led Blinkit GTM expansion from Kolkata to 350+ dark stores across 7 states, drove 52% online sales growth through paid media, and secured a ₹30L Adani Group Diwali order.',
   },
   {
-    id: '03',
+    id: '04',
     year: "APR '25 – AUG '25",
     title: 'SALES & MARKETING INTERN',
     organization: 'JK CEMENTS LTD. — GURGAON',
     description:
-      'Ran competitive analysis on construction chemicals and shaped regional planning with the Zonal Head, coordinating 16 Area Sales Managers across 5 zones.',
+      'Benchmarked JKProfix construction chemicals against competitors, fed consumer insights into the Zonal Head’s regional planning, and coordinated GTM execution with 16 Area Sales Managers across 5 zones.',
   },
   {
-    id: '04',
+    id: '05',
     year: '2024 – 2025',
     title: 'BBA — INTERNATIONAL DEGREE',
     organization: 'IESEG SCHOOL OF MANAGEMENT — LILLE, FRANCE',
     description:
-      "Grade 'A' with a EUR 1,241 merit scholarship. Led the EmpowerLille capstone on B2B2C social enterprise design.",
+      "Grade 'A' across two semesters with a EUR 1,241 merit scholarship. Led the EmpowerLille capstone on B2B2C social enterprise design.",
   },
   {
-    id: '05',
+    id: '06',
     year: "MAY '24 – JUL '24",
     title: 'MARKETING INTERN',
     organization: 'SVATANTRA MICRO HOUSING FINANCE — JAIPUR',
     description:
-      'Mapped customer segments across 12 primary field studies, improved onboarding by 17%, and supported ₹50L+ in loan disbursement within two months.',
+      'Ran 12 field surveys mapping customer needs across underserved segments, turning the findings into sharper acquisition targeting and simpler onboarding scripts.',
   },
   {
-    id: '06',
+    id: '07',
     year: "AUG '23 – FEB '24",
     title: 'MARKETING TEAM MEMBER',
     organization: 'AIESEC IN BENGALURU',
     description:
-      'Grew youth-exchange enrollments 12% through social and digital content execution, aligning stakeholders across international chapters.',
+      'Lifted engagement and programme enrolments through social content and digital campaigns, and worked on virtual exchanges with AIESEC in Siberia.',
   },
   {
-    id: '07',
+    id: '08',
     year: '2022 – 2024',
     title: 'BBA (HONOURS)',
     organization: 'CHRIST UNIVERSITY — BENGALURU',
     description:
-      'GPA 3.36/4, top 20% of cohort. Selected from 400+ students across 4 campuses for the IESEG credit transfer programme.',
+      'GPA 3.36/4, top 20% of cohort, and a member of the Christ national-level festing team. Selected from 400+ students across 4 campuses for the IESEG credit transfer programme.',
+  },
+  {
+    id: '09',
+    year: '2019 – 2022',
+    title: 'CLASS XII, CBSE COMMERCE',
+    organization: 'NEERJA MODI SCHOOL — JAIPUR',
+    description:
+      'Commerce with Applied Mathematics, 83.6% (Class X: 91%). Agni House Prefect on the Student Council.',
   },
 ];
 
